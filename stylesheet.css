@@ -58,4 +58,33 @@ body {
     border: solid #181C49;
     box-shadow: 2px 2px 5px #070F2B;
 }
+.game-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 20px;
+    color: #E0D8F3;
+    font-size: 30px;
+}
 
+.game-grid img {
+    border-radius: 3px;
+    height: 80%;
+    box-shadow: 5px 5px 10px #070F2B;
+}
+#gamePublisher,
+#gameDeveloper {
+    margin: 5px;
+    padding: none;
+}
+#gameDescription{
+    margin-top: 20px;
+}
+.homeButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.homeButton img {
+    width: 50px;
+    color: #E0D8F3;
+}
