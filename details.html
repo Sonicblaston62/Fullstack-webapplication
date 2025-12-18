@@ -7,27 +7,36 @@
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <div class="header">
-        <a class="homeButton">
-            <a href="index.html"></a>
-            <img src="images/home.png" alt="Return">
-        </a>
-        <h1>Welcome to the GameStore!</h1>
-        <p>Browse locally installed games on a website!</p>
-    </div>
+    <header>
+        <button class="homeButton">
+            <a href="index.html">
+                <img src="images/home.png" alt="Return">
+            </a>
+        </button>
+        <div>
+            <h1>Welcome to the GameStore!</h1>
+        <div class="secondTitle">
+            Browse locally installed games on a website!</div>
+        </div>
+    </header>
     
     <div id="details">
         <div class="game-grid">
             <img id="gameImage" alt="Game Cover">
-            <div id="whatever">
+            <div id="gameInfoSection"> 
                 <h2 id="gameName"></h2>
                 <h5 id="gamePublisher"></h5>
                 <h5 id="gameDeveloper"></h5>
+                <p id="gameGenre"></p> 
+                <p id="gameReleaseDate"></p> 
                 <p id="gameDescription"></p>
             </div>
         </div>
     </div>
-    
+    <footer>
+        <p>Created by Sonicblaston</p>
+        <p>Hosted on Github pages</p>
+    </footer>
     <script src="main.js"></script>
 </body>
 </html>
