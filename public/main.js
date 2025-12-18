@@ -12,7 +12,6 @@ const items = [
     {developer: "", publisher: "", name: "Sonic Mania", cover: "images/sonic_mania.jpg", genre: "Platformer", releaseDate: "Aug 15, 2017", description: "" },
     {developer: "", publisher: "", name: "Worms Armageddon", cover: "images/worms_armageddon.jpg", genre: "Strategy", releaseDate: "Nov 19, 1999", description: "" },
     {developer: "", publisher: "", name: "Sonic Racing: Crossworlds", cover: "images/sonic_crossworlds.jpg", genre: "Racing", releaseDate: "sep 25 2025", description: "" },
-
 ];
 
 const grid = document.getElementById("grid");
