@@ -116,3 +116,20 @@ footer {
     box-shadow: 2px 2px 5px #070F2B;
 
 }
+
+.add-game-item {
+    background-color:#070F2B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px #070F2B;
+
+}
+
+.add-game-item .plus-sign {
+    color:#E0D8F3;
+    font-size: 6em;
+    font-weight: bold;
+    user-select: none;
+}
